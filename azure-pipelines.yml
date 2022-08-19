@@ -17,6 +17,7 @@ steps:
 
 - script: |
     pwd
+    hostname
     ls
     npm install
     pwd
