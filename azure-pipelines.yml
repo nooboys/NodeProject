@@ -17,7 +17,9 @@ steps:
 
 - script: |
     pwd
+    ls
     npm install
     pwd
+    ls
     npm run build
   displayName: 'npm install and build'
